@@ -35,6 +35,11 @@ body{
     padding: 0 400px;
     margin-left: 30px;
 }
+.item-link-different:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+}
 .item-link:hover {
     color: black;
     text-decoration: underline;
@@ -44,4 +49,22 @@ body{
     background-color: rgb(123, 189, 189);
     border-radius: 5px 5px 0 0;
     align-self: flex-end;
+}
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.main{
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+#p1 {
+    text-align: justify;
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration:underline;
 }
