@@ -1,12 +1,11 @@
 .tab{
-    max-width: 80%;
-    padding: 0 2px;
+    width: auto;
+    padding: 0px 2px;
     border-radius: 2px;
     background-color: grey;
     line-height: 100px;
     font-weight: bold;
     box-shadow: 10px 10px 20px black;
-    white-space: nowrap;
     overflow: auto;
 }
 .tab-items{
@@ -25,10 +24,16 @@ body{
     color: black;
 }
 .item-link {
-    padding: 0 20px;
+    padding: 0px 20px;
     color: bisque;
     text-decoration: none;
     display: inline-block;
+    margin-left: 100px;
+}
+.item-link-different {
+    color: aqua;
+    padding: 0 400px;
+    margin-left: 30px;
 }
 .item-link:hover {
     color: black;
