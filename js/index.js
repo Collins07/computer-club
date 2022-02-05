@@ -100,3 +100,13 @@ const quiz = [
         }
     },
 ]
+let count = 0;
+let score = 0;
+const quizquestion = document.querySelector(".question");
+const opt1 = document.querySelector("#option1");
+const opt2 = document.querySelector("#option2");
+const opt3 = document.querySelector("#option3");
+const opt4 = document.querySelector("#option4");
+const submit = document.querySelector("#submit");
+const answers1 = document.querySelectorAll(".answer")
+const showsc = document.querySelector("#showscore");
