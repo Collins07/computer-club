@@ -110,3 +110,12 @@ const opt4 = document.querySelector("#option4");
 const submit = document.querySelector("#submit");
 const answers1 = document.querySelectorAll(".answer")
 const showsc = document.querySelector("#showscore");
+
+const loadQuestions = () => {
+    const listOfQuestions = quiz[count];
+    quizquestion.innerHTML = listOfQuestions.question;
+    opt1.innerHTML = listOfQuestions.answers.a;
+    opt2.innerHTML = listOfQuestions.answers.b;
+    opt3.innerHTML = listOfQuestions.answers.c;
+    opt4.innerHTML = listOfQuestions.answers.d;
+}
