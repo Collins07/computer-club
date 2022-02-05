@@ -130,3 +130,7 @@ const getAnswer = () => {
     const corAnswer = {ans1:'a', ans2:'b', ans3:'c', ans4:'d'};
     return corAnswer[ans];
 }
+submit.addEventListener('click', () => {
+    const checkanswer = getAnswer();
+    console.log({ checkanswer, correct: quiz[count].answers.correct, score});
+}
