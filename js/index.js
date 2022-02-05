@@ -143,8 +143,8 @@ submit.addEventListener('click', () => {
 
     } else {
         showsc.innerHTML = `
-        <h2> Your Score Is:  ${score}/ ${quiz.length}</h2>
-       <button class="Submit" onClick="location.reload()"> Play Again </button>
+        <h4> Your Score Is:  ${score}/ ${quiz.length}</h4>
+       <button class="Submit" onClick="location.reload()"> Attempt Again </button>
         `;
 
         showsc.classList.remove("myscore")

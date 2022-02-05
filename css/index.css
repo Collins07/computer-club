@@ -14,9 +14,6 @@
     list-style: none;
     display: inline-flex;
 }
-body{
-    background-color: white;
-}
 .tab-item {
     display: inline;
 }
@@ -54,13 +51,15 @@ h1 {
     text-align: center;
     font-family: sans-serif;
     font-size: 35px;
+    text-decoration: underline;
 }
 .main{
     margin-top: 50px;
 }
 p{
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
+    margin-left: 20px;
 }
 #p1 {
     text-align: justify;
@@ -69,7 +68,6 @@ p{
     text-decoration:underline;
 }
 .container{
-    border: 2px solid black;
     margin-top: 150px;
     justify-content: center;
     height: 500px;
@@ -77,11 +75,11 @@ p{
     margin-left: 10%;
 }
 .questions{
-    border: 2px solid red;
+    border: 2px solid black;
     width: 50%;
     padding: 15px 5px;
     border-radius: 10px;
-    box-shadow: 4px 4px 2px grey;
+    box-shadow: 10px 10px 8px grey;
     height: 300px;
     margin-left: 20px;
     margin-top: 40px;
@@ -104,10 +102,14 @@ p{
 #showscore {
     margin-top: -20%;
     margin-right: 30px;
-    border: 2px solid blue;
+    box-shadow: 10px 10px 8px 8px grey;
     width: 30%;
     height: 200px;
     float: right;
     font-size: 25px;
     font-weight: bold;
+    text-align: center;
+}
+body {
+    background: linear-gradient(105deg,rgb(202, 197, 197) 70%,rgb(240, 181, 71) 50%)
 }
