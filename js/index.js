@@ -142,12 +142,12 @@ submit.addEventListener('click', () => {
         loadQuestions();
 
     } else {
-        showSc.innerHTML = `
+        showsc.innerHTML = `
         <h2> Your Score Is:  ${score}/ ${quiz.length}</h2>
        <button class="Submit" onClick="location.reload()"> Play Again </button>
         `;
 
-        showSc.classList.remove("myscore")
+        showsc.classList.remove("myscore")
     }
 
 });
