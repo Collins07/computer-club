@@ -133,4 +133,21 @@ const getAnswer = () => {
 submit.addEventListener('click', () => {
     const checkanswer = getAnswer();
     console.log({ checkanswer, correct: quiz[count].answers.correct, score});
-}
+
+    if (checkanswer == quiz[count].answers.correct) {
+        score = score + 1;
+    };
+    count++;
+    if (count < quiz.length) {
+        loadQuestions();
+
+    } else {
+        showSc.innerHTML = `
+        <h2> Your Score Is:  ${score}/ ${quiz.length}</h2>
+       <button class="Submit" onClick="location.reload()"> Play Again </button>
+        `;
+
+        showSc.classList.remove("myscore")
+    }
+
+});
